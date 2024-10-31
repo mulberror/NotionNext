@@ -16,7 +16,7 @@ export const GongAnBeiAn = () => {
 
   const href = `https://beian.mps.gov.cn/#/query/webSearch?code=${code}` // 动态生成链接
 
-  if (!BEI_AN_GONGAN) {
+  if (true) {
     return null
   }
   return (
